@@ -6,7 +6,7 @@
 
 ```
     # engine-manage-domains list
-    Domain: eayunos.eayun.com
-        User name: eayunos@EAYUNOS.EAYUN.COM
+    Domain: ovirt-engine.test.com
+        User name: ovirt@OVIRT-ENGINE.TEST.COM
         Manage Domains completed successfully
 ```

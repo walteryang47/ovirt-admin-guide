@@ -247,7 +247,6 @@
            * [控制台组件](virtual_machines/console_component.md)
            * [在 Linux 机器上安装 Remote Viewer](virtual_machines/installing_remote_viewer_on_linux_machine.md)
            * [在 Windows 的 IE 浏览器上安装 Remote Viewer](virtual_machines/installing_remote_viewer_in_windows_ie.md)
-           * [在 Windows 机器上安装 Remote Viewer](virtual_machines/install_remote_viewer_on_windows_machine.md)
        * [客户端驱动与代理](virtual_machines/guest_drivers_and_agents.md)
            * [安装客户端驱动与代理](virtual_machines/install_guest_drivers_and_agents.md)
            * [在 CentOS 上安装客户端驱动与代理](virtual_machines/install_guest_driver_and_agents_on_centos.md)

@@ -28,9 +28,9 @@
 |page|整形数|每页显示的搜索结果数目|
 
 *示例*.
-*Events: Vms.name = testdesktop AND Hosts.name = test.eayun.com*
+*Events: Vms.name = testdesktop AND Hosts.name = test.test.com*
 
 将返回一个事件列表，其中的每个事件都具有以下特点：
 
--   事件发生在运行在主机 *test.eayun.com* 中的虚拟机 *testdesktop* 上
+-   事件发生在运行在主机 *test.test.com* 中的虚拟机 *testdesktop* 上
 

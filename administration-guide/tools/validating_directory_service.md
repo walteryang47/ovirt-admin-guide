@@ -6,7 +6,7 @@
 
 ```
     # engine-manage-domains validate
-    Domain eayunos.eayun.com is valid.
-    The configured user for domain eayunos.eayun.com is eayunos@EAYUNOS.EAYUN.COM
+    Domain ovirt.test.com is valid.
+    The configured user for domain ovirt.test.com is ovirt@OVIRT.TEST.COM
     Manage Domains completed successfully
 ```

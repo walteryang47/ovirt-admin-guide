@@ -12,6 +12,6 @@ oVirt 中对资源进行搜索的搜索查询条件的语法如下所示：
 |例子|结果|
 |----|----|
 |Hosts: Vms.status = up|显示所有运行着虚拟机的主机列表。|
-|Vms: domain = dev.eayun.com|显示在某个特定的域中所有运行的虚拟机列表。|
+|Vms: domain = dev.test.com|显示在某个特定的域中所有运行的虚拟机列表。|
 |Vms: user.name = Dunrong|显示所有属于名为 Dunrong 的用户的虚拟机列表。|
 |Events: severity \> normal sortby time|显示按时间排序的所有严重程度高于 normal 的事件列表。|
