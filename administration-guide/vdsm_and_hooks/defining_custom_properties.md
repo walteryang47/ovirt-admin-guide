@@ -1,7 +1,7 @@
 # 定义自定义属性
 
-oVirt 虚拟化管理中心接受并将其传至自定义 Hook 脚本的自定义属性，是通过
-`engine-config` 命令进行定义的。在安装了 oVirt 虚拟化管理中心的主机上使用
+oVirt 企业级虚拟化管理中心接受并将其传至自定义 Hook 脚本的自定义属性，是通过
+`engine-config` 命令进行定义的。在安装了 oVirt 企业级虚拟化管理中心的主机上使用
 **root** 用户运行此命令。
 
 **UserDefinedVMProperties** 和 **CustomDeviceProperties**

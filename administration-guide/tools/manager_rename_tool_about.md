@@ -1,6 +1,6 @@
 # 关于 oVirt Manager 重命名工具
 
-在初始环境下运行 **engine-setup** 命令，会根据安装过程中提供的 FQDN 域名生成一系列证书和密钥。如果后期需要修改 oVirt 虚拟化管理中心的 FQDN 域名（例如，将 oVirt 虚拟化管理中心 迁移到另一个网络环境），需要使用 **ovirt-engine-rename** 命令完成所有相关的调整。
+在初始环境下运行 **engine-setup** 命令，会根据安装过程中提供的 FQDN 域名生成一系列证书和密钥。如果后期需要修改 oVirt 企业级虚拟化管理中心的 FQDN 域名（例如，将 oVirt 企业级虚拟化管理中心 迁移到另一个网络环境），需要使用 **ovirt-engine-rename** 命令完成所有相关的调整。
 
 **ovirt-engine-rename** 命令所更新的 FQDN 域名的相关文件的位置如下：
 

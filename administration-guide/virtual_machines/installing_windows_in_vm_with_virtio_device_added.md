@@ -5,7 +5,7 @@
 **virtio-win.vfd** 是一个软盘镜像，包含了针对 Windows 的 virtio 磁盘和网络
 设备驱动，使用这些能获得比传统的模拟设备更高的性能。
 
-**virtio-win.vfd** 已经自动放在了 oVirt 虚拟化管理中心自动配置的 ISO 存储域中，需要手动使用 **engine-iso-uploader** 工具上传到其他的 ISO 域中。
+**virtio-win.vfd** 已经自动放在了 oVirt 企业级虚拟化管理中心自动配置的 ISO 存储域中，需要手动使用 **engine-iso-uploader** 工具上传到其他的 ISO 域中。
 
 你可以通过附加软盘到你的虚拟机中来在安装 Windows 的过程中安装 VirtIO 优化过的设备驱动。
 

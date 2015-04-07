@@ -70,4 +70,4 @@ mkdir -p /exports/export
 ```
 **结果**
 
-NFS 文件共享创建成功，可以将其附加至 oVirt 管理中心中了。
+NFS 文件共享创建成功，可以将其附加至 oVirt 企业级虚拟化管理中心中了。

@@ -1,6 +1,6 @@
 # 删除目录服务
 
-本例中，**engine-manage-domains** 从 oVirt 虚拟化管理中心 中删除 **IdM** 域 **demo.ovirt-engine.test.com** 的配置。更改完成之后， oVirt 虚拟化管理中心中属于 **demo.ovirt-engine.test.com** 的用户将无法登录，但是依然会保留在用户列表中，除非手动清理用户列表。
+本例中，**engine-manage-domains** 从 oVirt 企业级虚拟化管理中心 中删除 **IdM** 域 **demo.ovirt-engine.test.com** 的配置。更改完成之后， oVirt 企业级虚拟化管理中心中属于 **demo.ovirt-engine.test.com** 的用户将无法登录，但是依然会保留在用户列表中，除非手动清理用户列表。
 
 本例中要删除的目录服务是 oVirt Manager 中的最后一个，所以命令执行过程中会给出一个警告，提醒用户最后一个目录服务删除之后，只有 **admin@internal** 用户可以登录到 Manager，新的用户只能在添加新的目录服务之后手动添加。
 

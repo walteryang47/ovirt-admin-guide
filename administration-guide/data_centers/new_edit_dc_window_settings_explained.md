@@ -6,8 +6,8 @@
 
 |项目|详细描述|
 |----|--------|
-|**名称**|数据中心的名称，必须限制在 40  个字符之内，可以由数字、字母、连字符以及下划线组成。|
-|**描述**|数据中心的描述，推荐填写但是可以不填。|
-|**类型**|存储类型，从以下选择其一：youerelouai**共享的**splashleeelouai**本地的**splashleesplashyou存储类型决定了数据中心的类型，每个数据中心有且仅有一种类型，在数据中心创建之后存储类型不能被修改。多种类型的存储域可以添加到同一数据中心（iSCSI, NFS, FC, POSIX, and Gluster），但是本地的和共享的不能混淆。
-|**兼容版本**|目前有以下兼容的版本youerelouai**3.0**splashleeelouai**3.1**splashleeelouai**3.2**splashleeelouai**3.3**splashleeelouai**3.4**splashleeelouai**3.5**splashleesplashyou在升级了 oVirt 虚拟化管理中心 后，主机、集群和数据中心可能还在使用以前的版本。因此，在升级数据中心的兼容版本前，请确认您已经升级了所有主机和集群。 |
-|**配额模式**|配额是 oVirt  管理中心提供的资源限制工具。有以下的类型可以选择：youerelouai**禁用的** - 如果您不想要使用配额则选择此项目splashleeelouai**审计** - 选择此项以编辑配额设置splashleeelouai**强制的** - 选择此项以启用配额splashleesplashyou|
+|**名称**|数据中心的名字。它最长支持 40 个字符，可以包括大小写字母、数字、分号和下划线。数据中心的名字必须是唯一的。|
+|**描述**|数据中心的描述。这个项可以是空，但我们推荐您在这个项中输入相关的信息。|
+|**类型**|存储类型，从以下选择其一：youerelouai**共享的**splashleeelouai**本地的**splashleesplashyou存储域的类型对数据中心的类型有很大的影响，它在创建后将很难进行修改。尽管多种不同类型的存储域（iSCSI、NFS、FC、POSIX 和 Gluster）可以被添加到同一个数据中心中，“本地的”和“共享的”类型不能同时存在于一个数据中心中。|
+|**兼容版本**|目前有以下兼容的版本youerelouai**3.0**splashleeelouai**3.1**splashleeelouai**3.2**splashleeelouai**3.3**splashleeelouai**3.4**splashleeelouai**3.5**splashleesplashyou在升级了 oVirt 企业级虚拟化管理中心 后，主机、集群和数据中心可能还在使用以前的版本。因此，在升级数据中心的兼容版本前，请确认您已经升级了所有主机和集群。|
+|**配额模式**|配额是 oVirt 企业级虚拟化管理中心提供的资源限制工具。有以下的类型可以选择：youerelouai**禁用的** - 如果您不想要使用配额则选择此项目splashleeelouai**审计** - 选择此项以编辑配额设置splashleeelouai**强制的** - 选择此项以启用配额splashleesplashyou|

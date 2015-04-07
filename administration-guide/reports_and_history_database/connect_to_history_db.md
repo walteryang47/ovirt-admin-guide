@@ -65,7 +65,7 @@ hostssl     all    all     <net address/mask>      md5
    ```
    它会创建一个 **.deployed** 文件：
    **/var/lib/ovirt-engine/deployments/rhevm-reports.war.deployed**
-7. 添加一个 **iptables** 规则以允许外部机器连接到 oVirt 虚拟化管理中心并访问 PostgreSQL。例如，在一个默认的 **iptables** 配置中，运行以下命令在 SSH 规则后面添加一个新规则：
+7. 添加一个 **iptables** 规则以允许外部机器连接到 oVirt 企业级虚拟化管理中心并访问 PostgreSQL。例如，在一个默认的 **iptables** 配置中，运行以下命令在 SSH 规则后面添加一个新规则：
 
 ```
 iptables -I INPUT 5 -p tcp -m state --state NEW --dport 5432 -j ACCEPT

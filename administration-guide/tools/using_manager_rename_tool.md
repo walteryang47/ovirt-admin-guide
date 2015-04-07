@@ -1,9 +1,9 @@
-# 使用oVirt 虚拟化管理中心重命名工具
+# 使用oVirt 企业级虚拟化管理中心重命名工具
 **概述**
 
-使用 **ovirt-engine-rename** 命令更新 oVirt 虚拟化管理中心 的 FQDN 域名记录。
+使用 **ovirt-engine-rename** 命令更新 oVirt 企业级虚拟化管理中心 的 FQDN 域名记录。
 
-**使用 oVirt 虚拟化管理中心重命名工具**
+**使用 oVirt 企业级虚拟化管理中心重命名工具**
 
 1. 在 DNS 系统中准备好 Manager 新的 FQDN 域名记录以及其他相关记录。
 

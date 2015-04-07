@@ -10,4 +10,4 @@ oVirt虚拟化管理中心的连接。
 |----|----|------|--------|----|
 |5432|TCP、UDP|youerelouaioVirt虚拟化管理中心splashleesplashyou|youerelouaiPostgreSQL 数据库服务器splashleesplashyou|PostgreSQL 数据库的默认连接端口|
 
-如果您准备把数据库安装在 oVirt 虚拟化管理中心 本身所在的系统上时(这是安装时的默认选项),就不需要配置额外的防火墙规则。
+如果您准备把数据库安装在 oVirt 企业级虚拟化管理中心 本身所在的系统上时(这是安装时的默认选项),就不需要配置额外的防火墙规则。

@@ -62,7 +62,7 @@ engine-manage-domains ACTION [options]
 
   * ***IPA*** - Identity Management（IdM）。
 
-  * ***RHDS*** - Red Hat Directory Service。RHDS 不使用 Kerberos，而 oVirt 虚拟化环境要求使用 Kerberos，因此使用 RHDS 时需要配置 Kerberos 域中的一个目录服务。
+  * ***RHDS*** - Red Hat Directory Service。RHDS 不使用 Kerberos，而 oVirt 企业级虚拟化环境要求使用 Kerberos，因此使用 RHDS 时需要配置 Kerberos 域中的一个目录服务。
 
   >**注意**
   >
